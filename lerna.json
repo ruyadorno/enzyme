@@ -4,5 +4,6 @@
     "packages/*"
   ],
   "version": "independent",
-  "independent": true
+  "independent": true,
+  "npmClient": "arborist"
 }

@@ -1,3 +1,7 @@
+### :warning: Tweaks
+
+- Install requires --legacy-peer-deps flag
+
 Enzyme
 =======
 

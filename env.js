@@ -117,7 +117,7 @@ const rmrfs = []
 
 Promise.resolve()
   .then(() => Promise.all(rmrfs.map((s) => primraf(s))))
-  .then(() => run('npm', 'i'))
+  .then(() => run('arborist', '.'))
   .then(() => Promise.all([
     getJSON(adapterPackageJsonPath),
     getJSON(testPackageJsonPath),
